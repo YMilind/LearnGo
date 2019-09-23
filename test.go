@@ -9,6 +9,7 @@ var substring string
   text  = "Hello"
   v = strings.Compare("Hello", "World!");
 substring = "ello"
+fmt.Scanf("%d",&v)
   fmt.Println(v);
 v= strings.Index(text,substring)
 fmt.Println(v)
