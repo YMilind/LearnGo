@@ -19,7 +19,12 @@ return string(chars)
 
 func main() {
 
-fmt.Printf("%v\n" , reverse("Milind"))
+var  s string
+fmt.Printf("Enter the string to be reversed..")
+
+fmt.Scanf("%s",&s)
+
+fmt.Printf("%v\n" , reverse(s))
 
 }
 
