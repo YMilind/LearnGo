@@ -1,4 +1,4 @@
-package main
+package userlib
 
 import ("fmt"
  "time"      
@@ -18,7 +18,7 @@ return string(chars)
 
 }
 
-func main() {
+func reverseString() {
 
 var  s string
 fmt.Printf("Enter the string to be reversed..")
