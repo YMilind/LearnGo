@@ -1,8 +1,13 @@
 package main
 
-import "userlib"
-
+import (
+"userlib"
+"fmt"
+)
 func main(){
-userlib.reverse("Milind")
+var s string = "Milind"
+//userlib.reverseStringlib.reverse(s)
+//userlib.Reverse(s)
+fmt.Println(userlib.Reverse(s))
 }
 
