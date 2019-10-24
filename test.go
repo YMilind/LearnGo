@@ -7,7 +7,7 @@ func main() {
   var text string
 var substring string
   text  = "Hello"
-  v = strings.Compare("Hello", "World!");
+  v = strings.Compare("Hello", "Universe");
 substring = "ello"
 fmt.Scanf("%d",&v)
   fmt.Println(v);
