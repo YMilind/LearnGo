@@ -15,6 +15,6 @@ func main() {
 	}
 	//display arrays
 	for j = 0; j < 10; j++ {
-		fmt.Printf("Element %d is %d..\n", j, n[j])
+		fmt.Printf("Element %d is %d\n", j, n[j])
 	}
 }
