@@ -1,7 +1,6 @@
 FROM golang
-
 COPY ./web ./
-RUN cd ./src/
+WORKDIR /go/src 
 CMD ./wiki
-
+#ENTRYPOINT ./wiki
 
