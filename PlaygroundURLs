@@ -3,5 +3,6 @@
 
 #default : https://play.golang.org/p/0E0eaJP2_1p
 #matching case string : https://play.golang.org/p/uVj5FLBD-Ow
-
+#channel example:
+https://dev.to/ahmedash95/understand-golang-channels-and-how-to-monitor-with-grafana-154
 
